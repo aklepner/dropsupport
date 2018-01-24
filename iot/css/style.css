@@ -1,0 +1,175 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* 1. GLOBAL STYLES */
+
+body {
+	    background: #f8f8f8 url(../images/bg/woman-is-using-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	color: #000;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	text-shadow: 0px 0px 15px #fff
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0;
+
+}
+
+p {
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.3px;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #933ded;
+}
+
+a, a:hover, a:focus, button, button:hover {
+	outline: 0;
+	text-decoration: none;
+	transition: .4s;
+}
+
+ul, ol, li {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 13px;
+	list-style: none;
+
+text-shadow: 0px 0px 5px #fff
+
+}
+li span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #c50004;
+}
+
+.intro3 {
+	text-align: center;
+	background-size: cover;
+	padding: 10px 0;
+	position: relative;
+}
+
+.intro3 h2 {
+	color: #000;
+	font-size: 30px;
+	margin: 20px 0px;
+	font-weight: normal;
+	letter-spacing: -1px;
+
+	line-height: 40px;
+}
+
+.intro3 h2 span {
+	color: #000;
+	font-size: 50px;
+}
+.intro3 h3 {
+	 color: #000;
+
+}
+.intro3 ul {
+	color: #000;
+    padding: 10px 10px 0;
+
+}
+
+.intro3 p {
+	padding-right: 41%;
+	color: #000;
+	opacity: 0.8;
+	margin: 0 0 17px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.intro3 small {
+	padding-top: 20px;
+	color: #000;
+	font-size: 14px;
+}
+
+.intro3 small a {
+	color: #000;
+
+}
+.space20 {
+    padding: 20px 0 0 0;
+}
+
+
+.app-btn {
+	background: #c50004;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 30px 8px 30px;
+text-shadow: 0px 2px 3px #000;
+	font-size: 26px;
+	text-align: center;
+	margin: 11px 0 ;
+	border-radius: 3px;
+	font-weight: 700;
+}
+
+.app-btn span {
+	display: block;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 12px;
+	margin-bottom: -4px;
+}
+
+.app-btn i {
+	position: absolute;
+	left: 23px;
+	top: 14px;
+	font-size: 45px;
+}
+
+.app-btn:hover {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+/* 20. RESPONSIVE STYLES */
+
+@media only screen and (min-width: 993px)  and (max-width: 4000px)  {
+
+.center-content {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+}
+
